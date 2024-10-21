@@ -24,7 +24,6 @@ const AnecdoteForm = () => {
       
     },
     onError : () => {
-      console.log('error');
       dispatch({
         type: 'SHOW_NOTIFICATION',
         payload: `too short anecdote, must have length 5 or more`
